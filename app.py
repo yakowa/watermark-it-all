@@ -4,7 +4,7 @@
 # * This program is licensed under the MIT License
 
 
-from os import listdir
+from os import listdir, getcwd
 from os.path import isfile, join
 
 from PIL import Image
@@ -54,8 +54,8 @@ def addWatermark(inputPath, outputPath, watermarkPath, position, show, name):
 
 
 
-path = 'C:/Users/jacob/Desktop/Watermark-it-all/img'
-pathOut = 'C:/Users/jacob/Desktop/Watermark-it-all/output'
+path = getcwd() + '/img'
+pathOut = getcwd() + '/output'
 
 files = [f for f in listdir(path) if isfile(join(path, f))]
 
