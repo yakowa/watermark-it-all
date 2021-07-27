@@ -5,10 +5,6 @@
 
 Watermark-it-all is a quick app which allows you to add a watermark to as many images as you want! This is helpful if you want to protect your work against people using images without your permission.
 
-[![GitHub](https://img.shields.io/badge/Github-%28Click%20Me%29-blueviolet)](https://github.com/yakowa/watermark-it-all)
-
----
-
 ![Version: 1.0](https://img.shields.io/badge/Version-1.0-00e0a7)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-776bff)
